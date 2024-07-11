@@ -553,3 +553,13 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.border-t-neutral-50 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(250 250 250 / var(--tw-border-opacity));
+}
+
+.bg-amber-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 251 235 / var(--tw-bg-opacity));
+}
