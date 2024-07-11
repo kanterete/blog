@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
-
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <title>Frontend Mentor | Blog preview card</title>
+
+    <title>Blog preview card</title>
     <link rel="stylesheet" href="output.css"/>
+
 </head>
 
-<body>
-<div>
-    <img src="assets/images/illustration-article.svg"/>
+<body class="w-full h-screen flex flex-col justify-center items-center bg-yel font-figSb">
+<div class="flex flex-col
+w-88 h-112
+p-5 justify-center bg-white border border-black rounded-xxl shadow-my transition duration-200 hover:shadow-my2">
+    <div class="my-4 w-full h-full justify-center items-center">
+        <img class="rounded-xl" src="assets/images/illustration-article.svg" alt="ill"/>
+    </div>
+    <div>
+        <button class="rounded w-20 h-6 bg-yel text-xs justify-center font-figEb">Learning</button>
+        <p class="my-2 text-xs text-black font-figSb">Published 21 Dec 2023</p>
+    </div>
+    <div>
+        <h2 class="text-black font-figEb text-xl transition duration-200 hover:text-yel">HTML & CSS foundations</h2>
+        <p class="text-gr text-mid my-2">These languages are the backbone of every website, defining structure, content, and
+            presentation.</p>
+    </div>
+    <div class="flex items-center my-2 pb-2 font-figEb">
+        <img  alt="pfp" class="float-left justify-center items-start size-8 me-2" src="assets/images/image-avatar.webp"/>
+        <p class="text-sm">Greg Hooper</p>
+    </div>
 </div>
-<div>
-    <button class="">Learning</button>
-    <p>Published 21 Dec 2023</p>
-</div>
-<div>
-    <h2>HTML & CSS foundations</h2>
-    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-</div>
-<div>
-    <img src="assets/images/image-avatar.webp"/>
-    <p>Greg Hooper</p>
-</div>
+
 </body>
 </html>
